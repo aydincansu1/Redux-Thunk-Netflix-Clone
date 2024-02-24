@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  min-height: 100vh;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-img {
+  filter: drop-shadow(0 0 80px rgba(255, 255, 255, 0.336));
+}
